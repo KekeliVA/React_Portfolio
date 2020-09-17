@@ -15,5 +15,27 @@
 .banner-text h1 {
   font-size: 70px;
   font-weight: bold;
-  color: black;
+  color: white;
+  text-align: center;
+}
+
+.banner-text p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+
+.socials i {
+  color: white;
+  font-size: 4em;
+  padding: 8px;
 }
