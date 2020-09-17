@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-class Projects extends Coomponent {
+class Projects extends Component {
   render() {
     return(
       <div>
@@ -9,3 +9,5 @@ class Projects extends Coomponent {
     )
   }
 }
+
+export default Projects;
