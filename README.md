@@ -2,6 +2,8 @@
 
 The purpose of this assignment was to create my first react app. I utilize react MDL to help with styling. 
 
+Live site: https://kekeliva.github.io/React_Portfolio/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
