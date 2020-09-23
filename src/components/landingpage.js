@@ -28,17 +28,22 @@ class LandingPage extends Component {
             </div>
 
           <div className="bio-div" style={{width: "75%", margin: "auto", marginTop: "1.5em"}}>
-            <Cell col={6}>
-              <img width= "70%" alt= "Picture of developer" src= {image}/>
-            </Cell>
-
-            <Cell col={6}>
-              <div className= "bio-text">
-                <h1>Hello</h1>
-              </div>
-            </Cell>
+            <Grid>
+              <Cell col={6}>
+                <img width= "90%" alt= "Picture of developer" src= {image}/>
+              </Cell>
+              
+              <Cell col={6}>
+                <strong>Kekeli Afantchao </strong>
+                is a recent college grad from the University of Hartford. Earning his degrees in Audio Engineering Technology and Electrical Engineering Technology. 
+                Since a young age Kekeli was interested in software and programming. After spending some time in the work force he saw it would be worthwhile to pivot to software 
+                engineering to earn more technical positions at an array of companies. In his free time he enjoys videogames, playing drums in a band, and ultimate frisbee.
+              </Cell>
+            </Grid>
           </div>
-      
+          
+
+ 
 
         </Grid>
       </div>

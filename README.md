@@ -1,3 +1,7 @@
+# React-Portfolio
+
+The purpose of this assignment was to create my first react app. I utilize react MDL to help with styling. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
