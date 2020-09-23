@@ -27,13 +27,15 @@ class LandingPage extends Component {
               </div>             
             </div>
 
-          <div className= "bio-div" style={{width: "75%", margin: "auto"}}>
+          <div className="bio-div" style={{width: "75%", margin: "auto", marginTop: "1.5em"}}>
             <Cell col={6}>
               <img width= "70%" alt= "Picture of developer" src= {image}/>
             </Cell>
 
             <Cell col={6}>
-              <h1>Hello</h1>
+              <div className= "bio-text">
+                <h1>Hello</h1>
+              </div>
             </Cell>
           </div>
       
