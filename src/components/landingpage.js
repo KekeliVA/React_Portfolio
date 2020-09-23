@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Grid, Cell } from "react-mdl"
-{/* import image from "../_DSC0717.jpg" */}
+import image from "../_DSC0717.jpg"
 
 class LandingPage extends Component {
   render() {
@@ -26,6 +26,17 @@ class LandingPage extends Component {
                 </a>
               </div>             
             </div>
+
+          <div className= "bio-div" style={{width: "75%", margin: "auto"}}>
+            <Cell col={6}>
+              <img width= "70%" alt= "Picture of developer" src= {image}/>
+            </Cell>
+
+            <Cell col={6}>
+              <h1>Hello</h1>
+            </Cell>
+          </div>
+      
 
         </Grid>
       </div>
